@@ -1,0 +1,17 @@
+@keyframes floating {
+	0% {
+		transform: translateY(10px);
+	}
+
+	50% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+#arrow-up {
+	animation: floating 1s linear infinite;
+}

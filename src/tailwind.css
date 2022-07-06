@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.screen-main {
+		height: calc(100vh - 21.4vh);
+	}
+}
