@@ -209,7 +209,7 @@ function dataDetailPokemon(dataPokemon) {
 
 						<div class="relative mt-5 text-center">
 							<h2 class="text-xl font-semibold text-gray-800">Stats</h2>
-							<div class="mt-3 max-w-sm space-y-3 font-semibold">
+							<div class="mt-3 max-w-xs sm:max-w-sm space-y-3 font-semibold">
 								${statsPokemon(stats, pokemonBgColor)}
 							</div>
 						</div>
